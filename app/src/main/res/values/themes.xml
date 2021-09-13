@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FocusOnRoom" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+
+        <!--For Background Color -->
+        <item name="android:colorBackground">@color/colorBackground</item>
+
+        <!--For CardViews & Bottomsheets-->
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+
+        <!--For Primary Text Color -->
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+
+        <!--For Toolbar Style which take Primary Colors -->
+        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.Primary</item>
+
+        <!--For Error Colors -->
+        <item name="colorError">@color/colorError</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Navigation bar color. -->
+        <!--        <item name="android:navigationBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
